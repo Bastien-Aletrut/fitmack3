@@ -1,0 +1,117 @@
+@media screen and (max-width: 480px) {
+  .prec-all {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #dbb486;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+  }
+  .prec-in {
+    background-color: #dbb486;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+  .prec-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .prec-title {
+    margin: 20px;
+    color: #dbb486;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .prec-all {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #dbb486;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+  }
+  .prec-in {
+    background-color: #dbb486;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+  .prec-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .prec-title {
+    margin: 20px;
+    color: #dbb486;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .prec-all {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #dbb486;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+  }
+  .prec-in {
+    background-color: #dbb486;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+  .prec-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .prec-title {
+    margin: 20px;
+    color: #dbb486;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}

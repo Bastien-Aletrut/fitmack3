@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+  .cit-all {
+    height: 100px;
+    background-color: #002a33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cit-title {
+    font-family: "Inter";
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+}
+@media screen and (min-width: 1024px) {
+}

@@ -1,0 +1,46 @@
+.menu-nav {
+  visibility: hidden;
+}
+.menu-opened {
+  visibility: visible;
+}
+.menu-nav {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #668f6f;
+  opacity: 80%;
+  color: #ffffff;
+}
+.menu-items {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+}
+.menu-ligne {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: fixed;
+  height: 100%;
+}
+.menu-item {
+  font-size: 25px;
+}

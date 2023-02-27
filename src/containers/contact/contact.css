@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+  .con-all {
+    height: 100vh;
+    background-color: blueviolet;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .con-all {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .con-all {
+    height: 100vh;
+  }
+}

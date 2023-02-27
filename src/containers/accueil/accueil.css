@@ -1,0 +1,161 @@
+@media screen and (max-width: 480px) {
+  .acc-all {
+    background-image: url("../../assets/acc-img2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .acc-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    height: 100%;
+    color: #ffffff;
+  }
+  .acc-txt {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-orientation: upright;
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
+    color: #ffffff;
+  }
+  .acc-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    height: 100%;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .acc-all {
+    background-image: url("../../assets/acc-img2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .acc-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    height: 100%;
+    color: #ffffff;
+  }
+  .acc-txt {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-orientation: upright;
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
+    color: #ffffff;
+  }
+  .acc-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    height: 100%;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .acc-all {
+    background-image: url("../../assets/acc-img2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .acc-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    height: 100%;
+    color: #ffffff;
+  }
+  .acc-txt {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-orientation: upright;
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
+    color: #ffffff;
+  }
+  .acc-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    height: 100%;
+    color: #ffffff;
+  }
+}
