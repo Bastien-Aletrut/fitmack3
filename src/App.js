@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import { Accueil, Contact, Navbar, Prestation, Citation } from "./containers";
 
 import "./App.css";

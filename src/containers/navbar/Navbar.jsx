@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Logo from "../../assets/x.svg";
-import Logo2 from "../../assets/x.svg";
 import "./navbar.css";
 
 const Navbar = () => {
