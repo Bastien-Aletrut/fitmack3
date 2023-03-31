@@ -1,16 +1,40 @@
 @media screen and (max-width: 480px) {
   .con-all {
     height: 100vh;
-    background-color: blueviolet;
+    background-color: #002a33;
+    display: flexbox;
+  }
+  #titre2 {
+    font-family: "Inter";
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #lien-reseau {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  #lien {
+    margin-left: 40px;
+    width: min-content;
+  }
+  #instalogo {
+    height: 5vh;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .con-all {
     height: 100vh;
+    background-color: #002a33;
   }
 }
 @media screen and (min-width: 1024px) {
   .con-all {
     height: 100vh;
+    background-color: #002a33;
   }
 }
