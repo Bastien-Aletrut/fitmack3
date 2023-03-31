@@ -5,7 +5,8 @@
   scroll-behavior: smooth;
   
 }
-
+body::-webkit-scrollbar {
+  width: 0px !important}
 body {
   background: var(--color-bg);
 }

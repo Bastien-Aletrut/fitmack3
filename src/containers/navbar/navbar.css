@@ -1,4 +1,5 @@
-.menu-nav {
+@media screen and (max-width: 480px) {
+  .menu-nav {
   visibility: hidden;
 }
 .menu-opened {
@@ -22,14 +23,6 @@
   height: 100%;
   width: 100%;
 }
-
-.icon {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 20px;
-  height: 20px;
-}
 .menu-ligne {
   font-family: "Inter";
   font-style: normal;
@@ -44,4 +37,189 @@
 }
 .menu-item {
   font-size: 25px;
+}
+.menu-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+}
+.menu-icon2{
+  position: fixed;
+      height: 32px;
+      width: 32px;
+      top: 20px;
+      right: 30px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  transition: all 0.3s;
+}
+
+.menu-icon2 div{
+  height: 3.3px;
+  width: 33.3px;
+  background-color: rgb(255, 255, 255);
+  transition:  0.9s;
+}
+.menu-icon2-1 div:nth-child(1){
+  transform:translate(0px,8.3px) rotate(45deg)  ;
+  transition: 0.9s;
+}
+
+.menu-icon2-1 div:nth-child(2){
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.menu-icon2-1 div:nth-child(3){
+  transform:translate(0px,-8.3px) rotate(-45deg)  ;
+  transition: 0.9s;
+}
+
+.menu-icon1{
+  position: fixed;
+      height: 60px;
+      width: 70px;
+      top: 0px;
+      right: 10px;
+  background: transparent;
+  opacity: 80%;
+  border-radius: 20px;
+}
+.menu-icon1-1{
+  z-index: 1001;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .menu-nav {
+    visibility: hidden;
+  }
+  .menu-opened {
+    visibility: visible;
+  }
+  .menu-nav {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: #668f6f;
+    opacity: 80%;
+    color: #ffffff;
+    z-index: 1000;
+  }
+  .menu-items {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .menu-ligne {
+    visibility: hidden;
+    height: 0px;
+  }
+  .menu-item {
+    font-size: 25px;
+  }
+  .menu-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .menu-icon2{
+    position: fixed;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        right: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    transition: all 0.3s;
+  }
+  
+  .menu-icon2 div{
+    height: 3.3px;
+    width: 33.3px;
+    background-color: rgb(255, 255, 255);
+    transition:  0.9s;
+  }
+  .menu-icon2-1 div:nth-child(1){
+    transform:translate(0px,8.3px) rotate(45deg)  ;
+    transition: 0.9s;
+  }
+  
+  .menu-icon2-1 div:nth-child(2){
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.3s;
+  }
+  
+  .menu-icon2-1 div:nth-child(3){
+    transform:translate(0px,-8.3px) rotate(-45deg)  ;
+    transition: 0.9s;
+  }
+  
+  .menu-icon1{
+    position: fixed;
+        height: 60px;
+        width: 70px;
+        top: 0px;
+        right: 10px;
+    background: transparent;
+    opacity: 80%;
+    border-radius: 20px;
+  }
+  .menu-icon1-1{
+    z-index: 1001;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-nav {
+    visibility: visible;
+  }
+  .menu-opened {
+    visibility: visible;
+  }
+  .menu-nav {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: #668f6f;
+    opacity: 80%;
+    color: #ffffff;
+    z-index: 1000;
+  }
+  .menu-items {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .menu-ligne {
+    visibility: hidden;
+    height: 0px;
+  }
+  .menu-item {
+    font-size: 25px;
+  }
+  .menu-icon {
+    visibility: hidden;
+  }
+  .menu-icon2{
+    visibility: hidden;
+  }
 }
