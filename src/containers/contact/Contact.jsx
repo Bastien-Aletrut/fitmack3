@@ -4,13 +4,12 @@ import "./contact.css";
 import instalogo from "../../assets/instalogo.png";
 const Contact = () => (
   <div className="con-all">
-    <div id="lien">
+  <div className="con-title">ME CONTACTER</div>
+    <div className="con-in">
       <a href="https://www.instagram.com/_fitmack/?hl=fr">
-        <div id="lien-reseau">
-          <div id="titre2">
-            <img id="instalogo" src={instalogo} alt="" />
-            <h1>fitmack</h1>
-          </div>
+        <div className="con-lien">
+            <img className="con-instalogo" src={instalogo} alt="" />
+            <div className="con-in-titre">Fitmack</div>
         </div>
       </a>
     </div>

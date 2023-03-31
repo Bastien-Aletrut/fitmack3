@@ -11,6 +11,7 @@
   background-color: #668f6f;
   opacity: 80%;
   color: #ffffff;
+  z-index: 1000;
 }
 .menu-items {
   display: flex;

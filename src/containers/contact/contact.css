@@ -1,40 +1,132 @@
 @media screen and (max-width: 480px) {
   .con-all {
-    height: 100vh;
     background-color: #002a33;
-    display: flexbox;
-  }
-  #titre2 {
-    font-family: "Inter";
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-  }
-  #lien-reseau {
+    height: auto;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    align-content: center;
+    flex-direction: column;
     align-items: center;
   }
-  #lien {
+  .con-in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .con-title {
+    color: #86b3db;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px;
+  }
+  .con-in-titre {
+    margin: 20px;
+    color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .con-in {
     margin-left: 40px;
     width: min-content;
   }
-  #instalogo {
-    height: 5vh;
+  .con-instalogo{
+    width: 40px;
+  }
+  .con-lien{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .con-all {
-    height: 100vh;
     background-color: #002a33;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .con-in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .con-title {
+    color: #86b3db;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px;
+  }
+  .con-in-titre {
+    margin: 20px;
+    color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .con-in {
+    margin-left: 40px;
+    width: min-content;
+  }
+  .con-instalogo{
+    width: 40px;
+  }
+  .con-lien{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
   }
 }
 @media screen and (min-width: 1024px) {
   .con-all {
-    height: 100vh;
     background-color: #002a33;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .con-in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .con-title {
+    color: #86b3db;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px;
+  }
+  .con-in-titre {
+    margin: 20px;
+    color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .con-in {
+    margin-left: 40px;
+    width: min-content;
+  }
+  .con-instalogo{
+    width: 40px;
+  }
+  .con-lien{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
   }
 }
