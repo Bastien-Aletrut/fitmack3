@@ -3,7 +3,7 @@ import "./contact.css";
 
 import instalogo from "../../assets/instalogo.png";
 const Contact = () => (
-  <div className="con-all">
+  <div id="Contact" className="con-all">
   <div className="con-title">ME CONTACTER</div>
     <div className="con-in">
       <a href="https://www.instagram.com/_fitmack/?hl=fr">
