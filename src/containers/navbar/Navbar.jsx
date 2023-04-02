@@ -60,7 +60,7 @@ const Navbar = () => {
           <a className="menu-item" href="#Prestation" onClick={scrollToPrestation}>
             Prestation
           </a>
-          <a className="menu-item" href="#Me Contacter" onClick={scrollToContact}>
+          <a className="menu-item" href="#Contact" onClick={scrollToContact}>
             Me Contacter
           </a>
         </div>
