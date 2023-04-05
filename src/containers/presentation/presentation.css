@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+    .pre-all {
+      height: 100px;
+      background-color: #668F6F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .pre-title {
+      font-family: "Inter";
+      font-style: normal;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+    .pre-icon {
+        height: 20px;
+        margin-left:20px ;
+    }
+  }
+  @media screen and (min-width: 480px) and (max-width: 1024px) {
+    .pre-all {
+      height: 100px;
+      background-color: #668F6F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .pre-title {
+      font-family: "Inter";
+      font-style: normal;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+    .pre-icon {
+        height: 20px;
+        margin-left:20px ;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .pre-all {
+      height: 100px;
+      background-color: #668F6F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .pre-title {
+      font-family: "Inter";
+      font-style: normal;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+    .pre-icon {
+        height: 20px;
+        margin-left:20px ;
+    }
+  }
+  

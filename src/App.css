@@ -7,14 +7,4 @@
 }
 body::-webkit-scrollbar {
   width: 0px !important}
-body {
-  background: var(--color-bg);
-}
 
-.navbar{
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  height: 20px;
-  width: 20px;
-}
