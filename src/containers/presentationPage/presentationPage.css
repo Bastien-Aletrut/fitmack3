@@ -1,6 +1,295 @@
-
-  .col-green{
+.col-green{
     background-color: #668F6F;
-  min-height: 1px;
 }
+/* //generaly// */
+.prePage-txt-font{
+  font-size: large;
+  color: #FFFFFF;
+}
+.prePage-title-font{
+  font-size: larger;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/*  */
+.prePage-bando{
+  width: 100%;
+}
+.prePage-bando2{
+  width: 100%;
+  margin-bottom: -22px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .prePage-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .prePage-cont1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .prePage-image1{
+    visibility: visible;
+    width: 100%;
+    height: auto;
+  }
+  .prePage-contxt1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .prePage-titre1{
+    visibility: visible;
+    height: auto;
+    text-align: center;
+    margin: 10%;
+  }
+  .prePage-txt1-1{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt1-2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt1-3{
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .prePage-cont2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .prePage-image2{
+    visibility: visible;
+    width: 100%;
+    height: auto;
+  }
+  .prePage-contxt2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .prePage-titre2{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt2-1{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt2-2{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt2-3{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+
+  .prePage-480{
+    visibility: visible;
+  }
+  .prePage-1048{
+    visibility: hidden;
+    height: 0px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .prePage-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .prePage-cont1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .prePage-image1{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+  }
+  .prePage-contxt1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .prePage-titre1{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt1-1{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt1-2{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt1-3{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+
+  .prePage-cont2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .prePage-image2{
+    visibility: visible;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+  }
+  .prePage-contxt2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .prePage-titre2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt2-1{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt2-2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt2-3{
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .prePage-480{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-1048{
+    visibility: visible;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .prePage-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100%;
+  }
+
+  .prePage-cont1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .prePage-image1{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+  }
+  .prePage-contxt1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .prePage-titre1{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt1-1{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt1-2{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-txt1-3{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+
+  .prePage-cont2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .prePage-image2{
+    visibility: visible;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+  }
+  .prePage-contxt2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .prePage-titre2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt2-1{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt2-2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .prePage-txt2-3{
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .prePage-480{
+    visibility: hidden;
+    height: 0px;
+  }
+  .prePage-1048{
+    visibility: visible;
+  }
+}
+
   
