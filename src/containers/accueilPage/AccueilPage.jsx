@@ -6,8 +6,10 @@ import Citation from "../citation/Citation";
 import Presentation from "../presentation/Presentation";
 import Prestation from "../prestation/Prestation";
 import Contact from "../contact/Contact";
+import Demarche from "../demarche/Demarche";
 function AccueilPage() {
     document.body.classList.remove('col-green')
+    document.body.classList.remove('col-yellow')
     document.body.classList.add('col-grey')
 return(
       <div className="Acc-p">
@@ -16,9 +18,9 @@ return(
     <Citation />
     <Presentation/>
     <Prestation />
+    <Demarche />
     <Contact />
-    </div>  
-    
+    </div>   
 );
 }
 

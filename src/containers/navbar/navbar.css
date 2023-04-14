@@ -9,8 +9,7 @@
   position: fixed;
   height: 100%;
   width: 100%;
-  background-color: #668f6f;
-  opacity: 80%;
+  background: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   z-index: 1000;
 }
@@ -106,8 +105,7 @@
     position: fixed;
     height: 10%;
     width: 100%;
-    background-color: #668f6f;
-    opacity: 80%;
+    background: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     z-index: 1000;
   }
@@ -195,7 +193,7 @@
     position: fixed;
     height: 10%;
     width: 100%;
-    background-color: #668f6f;
+    background: rgba(0, 0, 0, 0.5);
     opacity: 80%;
     color: #ffffff;
     z-index: 1000;

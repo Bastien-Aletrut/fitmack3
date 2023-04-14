@@ -6,3 +6,5 @@ export { default as Citation } from "./citation/Citation";
 export { default as Presentation } from "./presentation/Presentation";
 export { default as AccueilPage } from "./accueilPage/AccueilPage";
 export { default as PresentationPage } from "./presentationPage/PresentationPage";
+export { default as DemarchePage } from "./demarchePage/DemarchePage"; 
+export { default as Demarche } from "./demarche/Demarche"; 

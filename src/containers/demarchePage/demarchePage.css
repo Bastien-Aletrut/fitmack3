@@ -1,0 +1,216 @@
+
+.col-yellow{
+    background-color: #DBB486;
+}
+/* //generaly// */
+.demPage-txt-font{
+  font-size: large;
+  color: #FFFFFF;
+}
+.demPage-title-font{
+  font-size: larger;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/*  */
+
+@media screen and (max-width: 480px) {
+  .demPage-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .demPage-cont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .demPage-image{
+    /* visibility: visible;
+    width: 100%;
+    height: auto; */
+    width:100vw;
+    height: 20vh;
+    overflow:hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .demPage-forme{
+    /* visibility: visible;
+    width: 100%;
+    height: auto; */
+    height :200%;
+    width:100%;
+    transform: skewY(-5deg);
+    transform-origin: bottom left;
+    overflow:hidden;
+  }
+  .demPage-bando{
+    width: 100%;
+  }
+  .demPage-contxt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .demPage-titre{
+    visibility: visible;
+    height: auto;
+    text-align: center;
+    margin: 10%;
+  }
+  .demPage-txt1{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .demPage-txt2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 10%;
+  }
+  .demPage-txt3{
+    visibility: hidden;
+    height: 0px;
+  }
+  .demPage-480{
+    visibility: visible;
+  }
+  .demPage-1048{
+    visibility: hidden;
+    height: 0px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .demPage-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .demPage-image{
+    height :100vh;
+    width:100vw;
+    overflow:hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .demPage-forme{
+    height :100%;
+    width:100%;
+    transform: skewX(-5deg);
+    transform-origin: top right;
+    overflow:hidden;
+  }
+  .demPage-bando{
+    height: 100%;
+  }
+  .demPage-contxt{
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .demPage-titre{
+    visibility: visible;
+    height: auto;
+    text-align: center;
+    margin: 20px;
+  }
+  .demPage-txt1{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 5%;
+  }
+  .demPage-txt2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 5%;
+  }
+  .demPage-txt3{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 5%;
+  }
+  .demPage-480{
+    visibility: hidden;
+    height: 0px;
+  }
+  .demPage-1048{
+    visibility: visible;
+  }
+}
+@media screen and (min-width: 1024px) {
+    .demPage-all{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100vh;
+      }
+      .demPage-image{
+        height :100vh;
+        width:100vw;
+        overflow:hidden;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .demPage-forme{
+        margin-bottom: -10px;
+        width: 100%;
+        transform: skewX(-5deg);
+        transform-origin: top right;
+        overflow:hidden;
+      }
+      .demPage-bando{
+        height: 100%;
+      }
+      .demPage-contxt{
+        max-width: 50vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+      }
+      .demPage-titre{
+        visibility: visible;
+        height: auto;
+        text-align: center;
+        margin: 20px;
+      }
+      .demPage-txt1{
+        visibility: visible;
+        height: auto;
+        text-align: justify;
+        margin: 10%;
+      }
+      .demPage-txt2{
+        visibility: visible;
+        height: auto;
+        text-align: justify;
+        margin: 10%;
+      }
+      .demPage-txt3{
+        visibility: visible;
+        height: auto;
+        text-align: justify;
+        margin: 10%;
+      }
+      .demPage-480{
+        visibility: hidden;
+        height: 0px;
+      }
+      .demPage-1048{
+        visibility: visible;
+      }
+}
