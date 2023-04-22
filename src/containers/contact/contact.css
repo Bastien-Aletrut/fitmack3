@@ -1,3 +1,29 @@
+#con-prenom{
+	width: 49px;
+	background: transparent;
+	border-color: transparent;
+	color: lightgreen;
+}
+#con-prenom::placeholder{
+	color: red;
+}
+#con-nom{
+	width: 27px;
+	background: transparent;
+	border-color: transparent;
+	color: lightgreen;
+}
+#con-nom::placeholder{
+	color: red;
+}
+input:hover
+{
+    border: none;
+}
+input:focus {
+     outline:  none;
+}
+
 @media screen and (max-width: 480px) {
   .con-all {
     background-color: #002a33;

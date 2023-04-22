@@ -1,16 +1,28 @@
 import React from "react";
 import "./demarchePage.css";
-import bando from "../../assets/Pdem.png";
+import bando from "../../assets/Pdem2.svg";
+import { Link } from "react-router-dom";
 function DemarchePage() {
     document.body.classList.add('col-yellow')
     document.body.classList.remove('col-grey')
     return(
     <div className="demPage-all">
+            <Link to="/#demarche">
+                <div className="demPage-menu">
+                    <div className="demPage-close">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </Link>
+            
             <div className="demPage-image">
                 <div class='demPage-forme'>
                     <img className="demPage-bando" src={bando} alt=""></img>
                 </div>
             </div>
+            <div class='demPage-boxbando'></div>
             <div className="demPage-contxt">
                 <div className="demPage-titre demPage-title-font">
                 Démarche

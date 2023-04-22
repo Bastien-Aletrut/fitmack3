@@ -63,6 +63,7 @@ const Navbar = () => {
           <a className="menu-item" href="#Contact" onClick={scrollToContact}>
             Me Contacter
           </a>
+          <div className="menu-boxmenu"></div>
         </div>
       </div>
     </div>

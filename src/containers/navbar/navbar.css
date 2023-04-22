@@ -78,7 +78,9 @@
   transform:translate(0px,-8.3px) rotate(-45deg)  ;
   transition: 0.9s;
 }
-
+.menu-boxmenu{
+  width: 0px;
+}
 .menu-icon1{
   position: fixed;
       height: 60px;
@@ -166,7 +168,9 @@
     transform:translate(0px,-8.3px) rotate(-45deg)  ;
     transition: 0.9s;
   }
-  
+  .menu-boxmenu{
+    width: 70px;
+  }
   .menu-icon1{
     position: fixed;
         height: 60px;
@@ -219,5 +223,8 @@
   }
   .menu-icon2{
     visibility: hidden;
+  }
+  .menu-boxmenu{
+    width: 0px;
   }
 }

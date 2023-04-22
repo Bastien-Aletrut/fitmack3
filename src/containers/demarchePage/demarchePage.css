@@ -13,12 +13,58 @@
   color: #FFFFFF;
 }
 /*  */
+.demPage-menu{
+  position: fixed;
+  height: 60px;
+  width: 70px;
+  top: 0px;
+  right: 10px;
+background: transparent;
+opacity: 80%;
+border-radius: 20px;
+  z-index: 1;
+}
+
+.demPage-close{
+  position: fixed;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  right: 30px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  transition: all 0.3s;
+}
+.demPage-close div{
+  height: 3.3px;
+  width: 33.3px;
+  background-color: rgb(255, 255, 255);
+  transition:  0.9s;
+}
+.demPage-close div:nth-child(1){
+  transform:translate(0px,8.3px) rotate(45deg)  ;
+  transition: 0.9s;
+}
+
+.demPage-close div:nth-child(2){
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.demPage-close div:nth-child(3){
+  transform:translate(0px,-8.3px) rotate(-45deg)  ;
+  transition: 0.9s;
+}
 
 @media screen and (max-width: 480px) {
   .demPage-all{
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
   }
 
   .demPage-cont{
@@ -30,25 +76,33 @@
     /* visibility: visible;
     width: 100%;
     height: auto; */
-    width:100vw;
-    height: 20vh;
-    overflow:hidden;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    height: 10vh;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: center; 
   }
   .demPage-forme{
     /* visibility: visible;
     width: 100%;
     height: auto; */
-    height :200%;
-    width:100%;
-    transform: skewY(-5deg);
-    transform-origin: bottom left;
-    overflow:hidden;
+    background:transparent;
+  	height :100%;
+  	width:100%;
+  	transform: skewY(3deg);
+    transform-origin: bottom right;
+  	overflow:hidden;
   }
   .demPage-bando{
     width: 100%;
+  }
+  .demPage-boxbando{
+    height: 7vh;
+    width: 100vw;
   }
   .demPage-contxt{
     display: flex;
@@ -89,27 +143,34 @@
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .demPage-all{
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between;
-    height: 100vh;
   }
   .demPage-image{
-    height :100vh;
-    width:100vw;
-    overflow:hidden;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    height: 100vh;
+    width: 35vw;
+    overflow: hidden;
     display: flex;
     align-items: flex-end;
     justify-content: center;
   }
   .demPage-forme{
-    height :100%;
-    width:100%;
-    transform: skewX(-5deg);
+    background:transparent;
+  	height :100%;
+  	width:100%;
+  	transform: skewX(176deg);
     transform-origin: top right;
-    overflow:hidden;
+  	overflow:hidden;
   }
   .demPage-bando{
     height: 100%;
+  }
+  .demPage-boxbando{
+    height: 100vh;
+    width: 40vw;
   }
   .demPage-contxt{
     max-width: 50vw;
@@ -151,66 +212,73 @@
   }
 }
 @media screen and (min-width: 1024px) {
-    .demPage-all{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 100vh;
-      }
-      .demPage-image{
-        height :100vh;
-        width:100vw;
-        overflow:hidden;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-      }
-      .demPage-forme{
-        margin-bottom: -10px;
-        width: 100%;
-        transform: skewX(-5deg);
-        transform-origin: top right;
-        overflow:hidden;
-      }
-      .demPage-bando{
-        height: 100%;
-      }
-      .demPage-contxt{
-        max-width: 50vw;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-      }
-      .demPage-titre{
-        visibility: visible;
-        height: auto;
-        text-align: center;
-        margin: 20px;
-      }
-      .demPage-txt1{
-        visibility: visible;
-        height: auto;
-        text-align: justify;
-        margin: 10%;
-      }
-      .demPage-txt2{
-        visibility: visible;
-        height: auto;
-        text-align: justify;
-        margin: 10%;
-      }
-      .demPage-txt3{
-        visibility: visible;
-        height: auto;
-        text-align: justify;
-        margin: 10%;
-      }
-      .demPage-480{
-        visibility: hidden;
-        height: 0px;
-      }
-      .demPage-1048{
-        visibility: visible;
-      }
+  .demPage-all{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .demPage-image{
+    position: fixed;
+    top: 0;
+    background: transparent;
+    height: 100vh;
+    width: 35vw;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .demPage-forme{
+    background:transparent;
+  	height :100%;
+  	width:100%;
+  	transform: skewX(176deg);
+    transform-origin: top right;
+  	overflow:hidden;
+  }
+  .demPage-bando{
+    height: 100%;
+  }
+  .demPage-boxbando{
+    height: 100vh;
+    width: 40vw;
+  }
+  .demPage-contxt{
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .demPage-titre{
+    visibility: visible;
+    height: auto;
+    text-align: center;
+    margin: 20px;
+  }
+  .demPage-txt1{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 5%;
+  }
+  .demPage-txt2{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 5%;
+  }
+  .demPage-txt3{
+    visibility: visible;
+    height: auto;
+    text-align: justify;
+    margin: 5%;
+  }
+  .demPage-480{
+    visibility: hidden;
+    height: 0px;
+  }
+  .demPage-1048{
+    visibility: visible;
+  }
 }
