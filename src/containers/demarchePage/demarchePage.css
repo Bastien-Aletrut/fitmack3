@@ -132,12 +132,8 @@ border-radius: 20px;
     visibility: hidden;
     height: 0px;
   }
-  .demPage-480{
-    visibility: visible;
-  }
-  .demPage-1048{
-    visibility: hidden;
-    height: 0px;
+  .demPage-txt{
+    font-size: 5vh;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
@@ -203,12 +199,8 @@ border-radius: 20px;
     text-align: justify;
     margin: 5%;
   }
-  .demPage-480{
-    visibility: hidden;
-    height: 0px;
-  }
-  .demPage-1048{
-    visibility: visible;
+  .demPage-txt{
+    font-size: 5vh;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -274,11 +266,8 @@ border-radius: 20px;
     text-align: justify;
     margin: 5%;
   }
-  .demPage-480{
-    visibility: hidden;
-    height: 0px;
-  }
-  .demPage-1048{
-    visibility: visible;
+
+  .demPage-txt{
+    font-size: 5vh;
   }
 }
