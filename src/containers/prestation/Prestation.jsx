@@ -1,14 +1,14 @@
 import React from "react";
-import Prescard from "../prescard/Prescard";
+import Card from "../card/Card";
 import "./prestation.css";
 const Prestation = () => (
   <div id="Prestation" className="pres-all">
     <div className="pres-title">PRESTATION</div>
     <div className="pres-in">
-      <Prescard id="Tarif" />
-      <Prescard id="Service" />
-      <Prescard id="Suivi" />
-      <Prescard id="Mon parcour" />
+      <Card id="0" />
+      <Card id="1" />
+      <Card id="2" />
+      <Card id="3" />
     </div>
   </div>
 );

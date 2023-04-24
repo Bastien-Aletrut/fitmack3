@@ -17,7 +17,7 @@ function DemarchePage() {
 
     return(
     <div className="demPage-all">
-            <Link to="/#demarche">
+            <Link to="/">
                 <div className="demPage-menu">
                     <div className="demPage-close">
                         <div></div>
