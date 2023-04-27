@@ -24,9 +24,13 @@
     align-content: center;
     align-items: center;
   }
-  .prec-logo {
-    height: 50px;
-    width: 50px;
+  .prec-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+  }
+  .prec-txt {
+    font-size: large;
   }
   .prec-title {
     margin: 20px;
@@ -35,6 +39,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
@@ -63,9 +68,13 @@
     align-content: center;
     align-items: center;
   }
-  .prec-logo {
-    height: 50px;
-    width: 50px;
+  .prec-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+  }
+  .prec-txt {
+    font-size: large;
   }
   .prec-title {
     margin: 20px;
@@ -74,6 +83,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -102,9 +112,13 @@
     align-content: center;
     align-items: center;
   }
-  .prec-logo {
-    height: 50px;
-    width: 50px;
+  .prec-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+  }
+  .prec-txt {
+    font-size: large;
   }
   .prec-title {
     margin: 20px;
@@ -113,5 +127,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+    text-align: center;
   }
 }

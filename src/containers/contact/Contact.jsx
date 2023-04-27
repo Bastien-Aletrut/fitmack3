@@ -66,7 +66,7 @@ function Contact() {
   return(
   <div id="Contact" className="con-all">
   <div className="con-title">ME CONTACTER</div>
-    <div className="con-txt1">Vous pouvez me contacter via Instagram en cliquant sur le lien ci-dessous</div>
+    {/* <div className="con-txt1">Vous pouvez me contacter via Instagram en cliquant sur le lien ci-dessous</div> */}
     <div className="con-in">
       <a href="https://www.instagram.com/_fitmack/?hl=fr">
         <div className="con-lien">

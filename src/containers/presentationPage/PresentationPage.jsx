@@ -27,7 +27,7 @@ Et depuis c'est un véritable plaisir d'encourager et de suivre des personnes en
                 Mon parcours : Brevet professionnel BPJEPS Activité de la forme (AF) 2 ans – professeur de fitness en salle de remise en forme Certifications : Pilates / Body Pump
                 </div>
                 <div className="prePage-txt1-3 prePage-txt-font">
-                Ma détermination lors des séances de coaching et de vous faire découvrir et apprécier une sensation de bien être qui vous pousseras a vous dépenser à chaque instant. 
+                Ma détermination lors des séances de coaching et de vous faire découvrir et apprécier une sensation de bien être qui vous poussera a vous dépenser à chaque instant. 
 Ensemble nous accomplirons vos objectifs à la hauteur de vos attentes et nous mettrons tout en place pour y parvenir.
                 </div>
             </div>
