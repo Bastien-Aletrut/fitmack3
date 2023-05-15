@@ -17,7 +17,7 @@ const Accueil = () => {
           
           <div className="acc-title">MICKAEL <span class="acc-sun">O</span>LANIER</div>
           <div className="acc-cnt">
-            <div className="acc-txt">“Ce qui sépare l’information de la transformation ? Le passage à l’action”</div>
+            <div className="acc-txt">“Ce qui sépare l’information de la transformation ?<br></br> Le passage à l’action”</div>
             <a href="#Contact" onClick={scrollToContact}>
               <div className="acc-btn">Passer à l'action !</div>
             </a>
