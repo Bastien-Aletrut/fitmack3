@@ -11,7 +11,7 @@ function Contact() {
   }
   return(
 <div className="con-all">
-                <div className="con-title">
+                <div id="Contact" className="con-title">
                   Contact
                 </div>
                 <div className="con-txt">
