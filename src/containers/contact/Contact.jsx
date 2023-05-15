@@ -27,11 +27,11 @@ function Contact() {
                       <div className="con-txt2">
                       MESSAGE
                       </div>
-                      <textarea id="con-message2" rows="5" cols="30"></textarea>
+                      <textarea id="con-message2" rows="5"></textarea>
                     </div>
                     <div className="con-box4">
                       <input id="con-email" value="mickael.olanier@gmail.com" type="text" readonly/>
-                      <textarea id="con-message" ></textarea>
+                      <textarea id="con-message" rows="5"></textarea>
                     </div>
                   </div>
                   <input onClick={envoyerMail} id="con-submit" type="button" value="Envoyer"/>
