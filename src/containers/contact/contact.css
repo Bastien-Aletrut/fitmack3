@@ -71,10 +71,12 @@
   #con-email2{
     margin-bottom: 20px;
     width: 100%;
+    font-family: "Raleway";
   }
   #con-message2{
     width: 100%;
     resize: none;
+    font-family: "Raleway";
   }
   #con-submit{
     margin-top: 20px;
@@ -151,10 +153,12 @@
       margin-right: 20px;
     }
     #con-email{
+      font-family: "Raleway";
       margin-bottom: 20px;
       width: 50vw;
     }
     #con-message{
+      font-family: "Raleway";
       resize: none;
       width: 50vw;
     }
@@ -233,11 +237,13 @@
       margin-right: 20px;
     }
     #con-email{
+      font-family: "Raleway";
       width: 50vw;
       margin-bottom: 20px;
       
     }
     #con-message{
+      font-family: "Raleway";
       width: 50vw;
       resize: none;
     }

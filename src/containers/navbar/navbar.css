@@ -63,7 +63,7 @@
 .menu-icon2 div{
   height: 3.3px;
   width: 33.3px;
-  background-color: rgb(255, 255, 255);
+  background-color: #eaf205;
   transition:  0.9s;
 }
 .menu-icon2-1 div:nth-child(1){
@@ -154,7 +154,7 @@
   .menu-icon2 div{
     height: 3.3px;
     width: 33.3px;
-    background-color: rgb(255, 255, 255);
+    background-color: #eaf205;
     transition:  0.9s;
   }
   .menu-icon2-1 div:nth-child(1){
