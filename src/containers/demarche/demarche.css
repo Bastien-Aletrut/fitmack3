@@ -27,23 +27,26 @@
     position: relative;
     color: black;
   }
-  .dem-arrow i:nth-child(2) {
+  .dem-arrow img:nth-child(2) {
     position: absolute;
     top: 0px;
     left: 0px;
     transition-duration: 0.5s;
   }
-  .dem-arrow i:nth-child(3) {
+  .dem-arrow img:nth-child(3) {
     position: absolute;
     top: 0px;
     left: 0px;
     transition-duration: 0.5s;
   }
-  .dem-all:hover i:nth-child(2) {
+  .dem-all:hover img:nth-child(2) {
     transform: translate(20px);
   }
-  .dem-all:hover i:nth-child(3) {
+  .dem-all:hover img:nth-child(3) {
     transform: translate(40px);
+  }
+  .dem-icon{
+    width: 20px;
   }
   }
   @media screen and (min-width: 480px) and (max-width: 1024px) {
@@ -75,44 +78,26 @@
       position: relative;
       color: black;
     }
-    .dem-arrow i:nth-child(2) {
+    .dem-arrow img:nth-child(2) {
       position: absolute;
       top: 0px;
       left: 0px;
       transition-duration: 0.5s;
     }
-    .dem-arrow i:nth-child(3) {
+    .dem-arrow img:nth-child(3) {
       position: absolute;
       top: 0px;
       left: 0px;
       transition-duration: 0.5s;
     }
-    .dem-all:hover i:nth-child(2) {
+    .dem-all:hover img:nth-child(2) {
       transform: translate(20px);
     }
-    .dem-all:hover i:nth-child(3) {
+    .dem-all:hover img:nth-child(3) {
       transform: translate(40px);
     }
-  }
-  @media screen and (min-width: 1024px) {
-    .dem-all {
-      height: 100px;
-      background-color: #DBB486;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .dem-title {
-      font-family: "Inter";
-      font-style: normal;
-      color: rgb(255, 255, 255);
-      font-size: 20px;
-      line-height: 24px;
-      text-align: center;
-    }
-    .dem-icon {
-        height: 20px;
-        margin-left:20px ;
+    .dem-icon{
+      width: 20px;
     }
   }
  @media screen and (min-width: 1024px) {
@@ -144,22 +129,25 @@
     position: relative;
     color: black;
   }
-  .dem-arrow i:nth-child(2) {
+  .dem-arrow img:nth-child(2) {
     position: absolute;
     top: 0px;
     left: 0px;
     transition-duration: 0.5s;
   }
-  .dem-arrow i:nth-child(3) {
+  .dem-arrow img:nth-child(3) {
     position: absolute;
     top: 0px;
     left: 0px;
     transition-duration: 0.5s;
   }
-  .dem-all:hover i:nth-child(2) {
+  .dem-all:hover img:nth-child(2) {
     transform: translate(20px);
   }
-  .dem-all:hover i:nth-child(3) {
+  .dem-all:hover img:nth-child(3) {
     transform: translate(40px);
+  }
+  .dem-icon{
+    width: 20px;
   }
 } 
