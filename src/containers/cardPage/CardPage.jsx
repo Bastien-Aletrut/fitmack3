@@ -3,11 +3,11 @@ import "./cardPage.css";
 import dem480 from "../../assets/Pdem480.png";
 import dem1048 from "../../assets/Pdem1048.png";
 import pmm480 from "../../assets/Pdem480.png";
-import pmm1048 from "../../assets/Pdem1048.png";
+import pmm1048 from "../../assets/Pser11048.png";
 import rf480 from "../../assets/Pdem480.png";
-import rf1048 from "../../assets/Pdem1048.png";
+import rf1048 from "../../assets/Pser21048.png";
 import pp480 from "../../assets/Pdem480.png";
-import pp1048 from "../../assets/Pdem1048.png";
+import pp1048 from "../../assets/Pser31048.png";
 import cp480 from "../../assets/Pdem480.png";
 import cp1048 from "../../assets/Pdem1048.png";
 import { Link } from "react-router-dom";
@@ -22,8 +22,8 @@ function CardPage(id) {
   
   const tabImg480 = [dem480,pmm480,rf480,pp480,cp480];
   const tabImg1048 = [dem1048,pmm1048,rf1048,pp1048,cp1048];
-  const tabColor = ["col-yellow","col-grey","col-grey","col-grey","col-grey"];
-  const tabNanColor = ["col-grey","col-yellow","col-yellow","col-yellow","col-yellow"];
+  const tabColor = ["col-black","col-black","col-black","col-black","col-black"];
+  const tabNanColor = ["col-white","col-white","col-white","col-white","col-white"];
   
   document.body.classList.add(tabColor[id.id]);
   document.body.classList.remove(tabNanColor[id.id]);

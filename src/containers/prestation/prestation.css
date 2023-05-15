@@ -1,69 +1,75 @@
 @media screen and (max-width: 480px) {
   .pres-all {
     height: auto;
+    background-color: transparent;
     display: flex;
     flex-wrap: nowrap;
-    align-content: center;
     flex-direction: column;
-    align-items: center;
+    padding: 20px;
   }
   .pres-in {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
   }
   .pres-title {
-    color: #dbb486;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin: 20px;
+    font-family: "Raleway";
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      text-decoration: #eaf205 underline;
+      margin-bottom: 20px;
+      text-align: center;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .pres-all {
     height: auto;
+    background-color: transparent;
     display: flex;
     flex-wrap: nowrap;
-    align-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
   }
   .pres-in {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
   }
   .pres-title {
-    color: #dbb486;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin: 20px;
+    font-family: "Raleway";
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      text-decoration: #eaf205 underline;
+      margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1024px) {
   .pres-all {
     height: auto;
+    background-color: transparent;
     display: flex;
     flex-wrap: nowrap;
-    align-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
   }
   .pres-in {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
   }
   .pres-title {
-    color: #dbb486;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin: 20px;
+    font-family: "Raleway";
+      font-style: normal;
+      font-size: 28px;
+      line-height: 24px;
+      text-decoration: #eaf205 underline;
+      margin-bottom: 20px;
   }
 }

@@ -1,19 +1,19 @@
 import React from "react";
 import "./presentation.css";
-import arrow from "../../assets/arrow.png";
-import { Link } from "react-router-dom";
 
 function Presentation() {
     
     return(
-        <Link to="/presentation">
             <div className="pre-all">
                 <div className="pre-title">
                     Mon Parcours
                 </div>
-                <img className="pre-icon" src={arrow} alt="" />
+                <div className="pre-txt">
+                Je m'appelle Mickaël, Diplomé du Bpejeps AF de Toulouse et coach sportif depuis deux ans. 
+Depuis mon enfance je pratique du sport qui est devenu ma passion et tout naturellement c'est sur la voie de coach que je me suis diriger. 
+Et depuis c'est un véritable plaisir d'encourager et de suivre des personnes en quêtes de leurs objectifs. 
+                </div>
             </div>
-        </Link>
     );
 }
 export default Presentation;

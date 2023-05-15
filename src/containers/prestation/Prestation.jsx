@@ -3,7 +3,7 @@ import Card from "../card/Card";
 import "./prestation.css";
 const Prestation = () => (
   <div id="Prestation" className="pres-all">
-    <div className="pres-title">PRESTATION</div>
+    <div className="pres-title">Prestation</div>
     <div className="pres-in">
       <Card id="0" />
       <Card id="1" />

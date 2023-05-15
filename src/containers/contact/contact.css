@@ -1,158 +1,84 @@
-#con-prenom{
-	width: 49px;
-	background: transparent;
-	border-color: transparent;
-	color: lightgreen;
-}
-#con-prenom::placeholder{
-	color: red;
-}
-#con-nom{
-	width: 27px;
-	background: transparent;
-	border-color: transparent;
-	color: lightgreen;
-}
-#con-nom::placeholder{
-	color: red;
-}
-input:hover
-{
-    border: none;
-}
-input:focus {
-     outline:  none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 @media screen and (max-width: 480px) {
   .con-all {
-    background-color: #002a33;
     height: auto;
+    background-color: transparent;
     display: flex;
     flex-wrap: nowrap;
-    align-content: center;
     flex-direction: column;
-    align-items: center;
-  }
-  .con-in {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 20px;
   }
   .con-title {
-    color: #86b3db;
-    font-family: "Inter";
+    font-family: "Raleway";
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: #eaf205 underline;
+    margin-bottom: 20px;
+    text-align: center;
   }
-  .con-in-titre {
-    margin: 20px;
-    color: #ffffff;
-    font-family: "Inter";
+  .con-txt {
+    font-family: "Raleway";
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 20px;
   }
-  .con-in {
-    margin-left: 40px;
-    width: min-content;
   }
-  .con-instalogo{
-    width: 40px;
+  @media screen and (min-width: 480px) and (max-width: 1024px) {
+    .con-all {
+      height: auto;
+      background-color: transparent;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+    .con-title {
+      font-family: "Raleway";
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      text-decoration: #eaf205 underline;
+      margin-bottom: 20px;
+    }
+    .con-txt {
+      font-family: "Raleway";
+      font-style: normal;
+      text-align: justify;
+      font-size: 12px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
   }
-  .con-lien{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+  @media screen and (min-width: 1024px) {
+    .con-all {
+      height: auto;
+      background-color: transparent;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+    .con-title {
+      font-family: "Raleway";
+      font-style: normal;
+      font-size: 28px;
+      line-height: 24px;
+      text-decoration: #eaf205 underline;
+      margin-bottom: 20px;
+    }
+    .con-txt {
+      font-family: "Raleway";
+      font-style: normal;
+      text-align: justify;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
   }
-}
-@media screen and (min-width: 480px) and (max-width: 1024px) {
-  .con-all {
-    background-color: #002a33;
-    height: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .con-in {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .con-title {
-    color: #86b3db;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin: 20px;
-  }
-  .con-in-titre {
-    margin: 20px;
-    color: #ffffff;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-  }
-  .con-in {
-    margin-left: 40px;
-    width: min-content;
-  }
-  .con-instalogo{
-    width: 40px;
-  }
-  .con-lien{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .con-all {
-    background-color: #002a33;
-    height: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .con-in {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .con-title {
-    color: #86b3db;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    margin: 20px;
-  }
-  .con-in-titre {
-    margin: 20px;
-    color: #ffffff;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-  }
-  .con-in {
-    margin-left: 40px;
-    width: min-content;
-  }
-  .con-instalogo{
-    width: 40px;
-  }
-  .con-lien{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
-}
+  
