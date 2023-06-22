@@ -36,6 +36,10 @@
     visibility: hidden;
     height: 0px;
   }
+  .acc-btn {
+    visibility: hidden;
+    height: 0px;
+  }
   .acc-image{
     /* visibility: visible;
     width: 100%;
@@ -55,7 +59,11 @@
   	height :100%;
   	width:100%;
   	overflow:hidden;
-    background-color: #010326;
+    background-image: url(../../assets/background2.png);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
   .acc-bando{
     position: absolute;
@@ -146,7 +154,13 @@
   	transform: skewY(3deg);
     transform-origin: bottom right;
   	overflow:hidden;
-    background-color: #010326;
+    background-image: url(../../assets/background2.png);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    /**/
+
   }
   .acc-bando{
     position: absolute;
@@ -237,7 +251,11 @@
   	transform: skewY(3deg);
     transform-origin: bottom right;
   	overflow:hidden;
-    background-color: #010326;
+    background-image: url(../../assets/background2.png);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
   .acc-bando{
     position: absolute;
