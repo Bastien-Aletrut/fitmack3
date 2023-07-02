@@ -9,9 +9,10 @@
     }
     .tarf-in {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: center;
       width: 100%;
+      flex-direction: column;
     }
     .tarf-title {
       font-family: "Raleway";
@@ -28,6 +29,7 @@
         align-items: center;
         flex-wrap: nowrap;
         flex-direction: column;
+        margin-bottom: 20px;
     }
     .tarf-txt{
         font-family: "Raleway";
@@ -51,9 +53,10 @@
     }
     .tarf-in {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: center;
       width: 100%;
+      flex-direction: row;
     }
     .tarf-title {
       font-family: "Raleway";
@@ -92,9 +95,10 @@
     }
     .tarf-in {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: center;
       width: 100%;
+      flex-direction: row;
     }
     .tarf-title {
       font-family: "Raleway";
