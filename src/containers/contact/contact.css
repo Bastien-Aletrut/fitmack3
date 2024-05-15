@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 
 @media screen and (max-width: 480px) {
   .con-all {
@@ -30,232 +30,231 @@
     margin-bottom: 20px;
     margin-left: 20px;
   }
-  .con-box{
+  .con-box {
     display: flex;
     width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
   }
-  .con-box2{
+  .con-box2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-
   }
-  .con-box3{
+  .con-box3 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 20px;
-    
   }
-  .con-box4{
+  .con-box4 {
     visibility: hidden;
     height: 0px;
   }
-  .con-txt2{
+  .con-txt2 {
     font-family: "Raleway";
     margin-bottom: 20px;
     margin-right: 20px;
     font-size: 14px;
   }
-  #con-email{
+  #con-email {
     visibility: hidden;
     height: 0px;
   }
-  #con-message{
+  #con-message {
     visibility: hidden;
     height: 0px;
   }
-  #con-email2{
+  #con-email2 {
     margin-bottom: 20px;
     width: 100%;
     font-family: "Raleway";
   }
-  #con-message2{
+  #con-message2 {
     width: 100%;
     resize: none;
     font-family: "Raleway";
   }
-  #con-submit{
+  #con-submit {
     margin-top: 20px;
     padding: 10px 20px;
-    background: #EAF205;
+    background: #eaf205;
     border-radius: 60px;
     font-family: "Raleway";
+    border: none;
   }
-  .con-footer{
+  .con-footer {
     width: 100%;
   }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .con-all {
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
   }
-  @media screen and (min-width: 480px) and (max-width: 1024px) {
-    .con-all {
-      height: auto;
-      background-color: transparent;
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-top: 20px;
-    }
-    .con-title {
-      font-family: "Raleway";
-      font-style: normal;
-      font-size: 20px;
-      line-height: 24px;
-      text-decoration: #eaf205 underline;
-      margin-bottom: 20px;
-      margin-left: 20px;
-    }
-    .con-txt {
-      font-family: "Raleway";
-      font-style: normal;
-      text-align: justify;
-      font-size: 12px;
-      line-height: 24px;
-      margin-bottom: 20px;
-      margin-left: 20px;
-    }
-    #con-email2{
-      visibility: hidden;
-      height: 0px;
-    }
-    #con-message2{
-      visibility: hidden;
-      height: 0px;
-    }
-    .con-box{
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-items: center;
-    }
-    .con-box2{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    .con-box4{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    .con-box3{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-    }
-    .con-txt2{
-      font-family: "Raleway";
-      margin-bottom: 20px;
-      margin-right: 20px;
-    }
-    #con-email{
-      font-family: "Raleway";
-      margin-bottom: 20px;
-      width: 50vw;
-    }
-    #con-message{
-      font-family: "Raleway";
-      resize: none;
-      width: 50vw;
-    }
-    #con-submit{
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #EAF205;
-      border-radius: 60px;
-      font-family: "Raleway";
-    }
-    .con-footer{
-      width: 100%;
-    }
+  .con-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: #eaf205 underline;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
-  @media screen and (min-width: 1024px) {
-    .con-all {
-      height: auto;
-      background-color: transparent;
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-top: 20px;
-    }
-    .con-title {
-      font-family: "Raleway";
-      font-style: normal;
-      font-size: 28px;
-      line-height: 24px;
-      text-decoration: #eaf205 underline;
-      margin-bottom: 20px;
-      margin-left: 20px;
-    }
-    .con-txt {
-      font-family: "Raleway";
-      font-style: normal;
-      text-align: justify;
-      font-size: 16px;
-      line-height: 24px;
-      margin-bottom: 20px;
-      margin-left: 20px;
-    }
-    #con-email2{
-      visibility: hidden;
-      height: 0px;
-    }
-    #con-message2{
-      visibility: hidden;
-      height: 0px;
-    }
-    .con-box{
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-items: center;
-    }
-    .con-box2{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    .con-box3{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-    }
-    .con-box4{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    .con-txt2{
-      font-family: "Raleway";
-      margin-bottom: 20px;
-      margin-right: 20px;
-    }
-    #con-email{
-      font-family: "Raleway";
-      width: 50vw;
-      margin-bottom: 20px;
-      
-    }
-    #con-message{
-      font-family: "Raleway";
-      width: 50vw;
-      resize: none;
-    }
-    #con-submit{
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #EAF205;
-      border-radius: 60px;
-      font-family: "Raleway";
-    }
-    .con-footer{
-      width: 100%;
-    }
+  .con-txt {
+    font-family: "Raleway";
+    font-style: normal;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
-  
+  #con-email2 {
+    visibility: hidden;
+    height: 0px;
+  }
+  #con-message2 {
+    visibility: hidden;
+    height: 0px;
+  }
+  .con-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .con-box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .con-box4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .con-box3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .con-txt2 {
+    font-family: "Raleway";
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  #con-email {
+    font-family: "Raleway";
+    margin-bottom: 20px;
+    width: 50vw;
+  }
+  #con-message {
+    font-family: "Raleway";
+    resize: none;
+    width: 50vw;
+  }
+  #con-submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #eaf205;
+    border-radius: 60px;
+    font-family: "Raleway";
+    border: none;
+  }
+  .con-footer {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .con-all {
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .con-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-size: 28px;
+    line-height: 24px;
+    text-decoration: #eaf205 underline;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .con-txt {
+    font-family: "Raleway";
+    font-style: normal;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  #con-email2 {
+    visibility: hidden;
+    height: 0px;
+  }
+  #con-message2 {
+    visibility: hidden;
+    height: 0px;
+  }
+  .con-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .con-box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .con-box3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .con-box4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .con-txt2 {
+    font-family: "Raleway";
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  #con-email {
+    font-family: "Raleway";
+    width: 50vw;
+    margin-bottom: 20px;
+  }
+  #con-message {
+    font-family: "Raleway";
+    width: 50vw;
+    resize: none;
+  }
+  #con-submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #eaf205;
+    border-radius: 60px;
+    font-family: "Raleway";
+    border: none;
+  }
+  .con-footer {
+    width: 100%;
+  }
+}
